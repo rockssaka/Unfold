@@ -1,0 +1,39 @@
+.step {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.bodyMuted {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+}
+
+.belief {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  border: none;
+  font-style: normal;
+  padding: var(--space-sm) 0;
+}
+
+.evidence {
+  font-size: 0.9rem;
+  color: var(--color-text-soft);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-bg-elevated);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--color-sage);
+}
+
+.evidenceLabel {
+  color: var(--color-sage);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}

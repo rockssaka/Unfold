@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-lg) 0;
+}
+
+.circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 40% 35%,
+    var(--color-sage-light),
+    var(--color-teal)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 48px var(--color-teal-glow);
+  transition: transform var(--transition-breath);
+}
+
+.inhale {
+  transform: scale(1.15);
+}
+
+.hold {
+  transform: scale(1.15);
+}
+
+.exhale {
+  transform: scale(0.85);
+}
+
+.rest {
+  transform: scale(0.9);
+}
+
+.seconds {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: var(--color-bg);
+}
+
+.label {
+  font-size: 1.25rem;
+  color: var(--color-text);
+  font-weight: 400;
+}
+
+.cycle {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.startBtn {
+  margin-top: var(--space-sm);
+  color: var(--color-sage-light);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}

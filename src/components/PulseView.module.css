@@ -1,0 +1,56 @@
+.pulse {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: var(--space-md);
+}
+
+.back {
+  align-self: flex-start;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  padding: var(--space-xs) 0;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  flex: 1;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.body {
+  color: var(--color-text-soft);
+}
+
+.bodyMuted {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
+
+.label {
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-sage);
+}
+
+.belief {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border: none;
+  font-style: normal;
+  padding: var(--space-sm) 0;
+}
+
+.hint {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
