@@ -1,0 +1,26 @@
+{
+  "name": "Unfold",
+  "short_name": "Unfold",
+  "description": "Gentle affirmations, grounding, and belief work — your private daily companion",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1a1f1e",
+  "theme_color": "#1a1f1e",
+  "orientation": "portrait",
+  "categories": ["health", "lifestyle"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
