@@ -25,6 +25,8 @@ jobs:
           node-version: 20
           cache: npm
 
+      - uses: actions/configure-pages@v4
+
       - name: Install and build
         env:
           GITHUB_PAGES: 'true'
