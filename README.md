@@ -31,6 +31,8 @@ At the centre of the experience is an **Active Belief** — one belief the user 
 
 This creates continuity across the product instead of presenting disconnected exercises.
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/63349a3a-edf6-4e08-90ca-0d87ee69b213" />
+
 ---
 
 ## Design Principles
